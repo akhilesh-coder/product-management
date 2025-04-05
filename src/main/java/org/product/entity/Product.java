@@ -20,7 +20,6 @@ public class Product extends PanacheEntity {
 
     public Integer quantity;
 
-    // equals and hashCode for comparison and tests
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
